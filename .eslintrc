@@ -1,0 +1,39 @@
+{
+  "env": {
+    "browser": true,
+    "es6": false
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "angular": true
+  },
+  "rules": {
+    "quotes": [
+      2,
+      "single"
+    ],
+    "no-use-before-define": [
+      2,
+      "nofunc"
+    ],
+    "space-before-function-paren": [
+      2,
+      {
+        "anonymous": "always",
+        "named": "never"
+      }
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+
+    //Best Practices
+    "no-multi-spaces": 2,
+    "no-alert": 2,
+    "no-console": 0,
+    "no-new-wrappers": 2,
+    "no-useless-concat": 2,
+    "no-self-compare": 2
+  }
+}

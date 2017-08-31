@@ -1,0 +1,18 @@
+html, body {
+	font-family: 'Roboto', sans-serif;
+	background: #F4F4F4;
+
+	
+	
+}
+@media (min-width: 768px) {
+	body {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1152px) {
+	body {
+		width: 70%;
+	}
+}

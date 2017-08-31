@@ -1,0 +1,21 @@
+{
+  "name": "template-for-component",
+  "authors": [
+    "Erik Andrey Bejarano Sanchez <andreybejarano@gmail.com>"
+  ],
+  "description": "stack example component angularjs",
+  "main": [
+    "dist/template-for-component.js",
+    "dist/template-for-component.css"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}

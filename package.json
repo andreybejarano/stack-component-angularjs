@@ -1,0 +1,50 @@
+{
+  "name": "template-for-component",
+  "version": "0.0.1",
+  "description": "stack example component angularjs",
+  "main": "dist/template-for-component.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andreybejarano/stack-component-angularjs.git"
+  },
+  "author": "Erik Andrey Bejarano Sanchez <andreybejarano@gmail.com>",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": ""
+  },
+  "dependencies": {
+    "async": "^2.1.2",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-cssfont64": "0.0.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-iconfont": "^8.0.1",
+    "gulp-if": "^2.0.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "lodash": "^4.16.4"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "babel-preset-es2015": "^6.18.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

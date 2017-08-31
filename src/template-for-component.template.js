@@ -1,0 +1,1 @@
+export const AppTemplates =  angular.module("amForComponent.template", []).run(["$templateCache", function($templateCache) {$templateCache.put('template-for-component.html','<H1>TemplateForComponent</H1><input type="text"/>');}]).name;
