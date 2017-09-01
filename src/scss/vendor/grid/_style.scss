@@ -29,12 +29,12 @@ $font_7: Gibson;
 	box-sizing: border-box;
 	min-height: 1rem;
 	margin-bottom: 0;
-	background: $azure_radiance;
-	border: 1px solid $white;
+	// background: $azure_radiance;
+	// border: 1px solid $white;
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 	border-radius: 2px;
 	overflow: hidden;
-	text-align: center;
+	// text-align: center;
 	color: $white;
 }
 

@@ -57,7 +57,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var AppTemplates = exports.AppTemplates = angular.module("amForComponent.template", []).run(["$templateCache", function ($templateCache) {
-  $templateCache.put('template-for-component.html', '<H1>TemplateForComponent</H1><input type="text"/>');
+  $templateCache.put('template-for-component.html', '<div class="container"><H1>TemplateForComponent</H1><div class="row"><input type="text" class="col-lg-3 col-md-6 col-sm-12 col-xs-12"/><input type="text" class="col-lg-3 col-md-6 col-sm-12 col-xs-12"/></div></div>');
 }]).name;
 
 },{}]},{},[2]);
